@@ -2,10 +2,12 @@ package practiceExercise02.SpringPracticeExercise02.app;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
-@Component
+//@Component
+@Service //Stereotype annotations
 public class BusinessLogic {
     private DataService dataService;
 
